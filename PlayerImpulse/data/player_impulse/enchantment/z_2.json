@@ -1,0 +1,120 @@
+{
+  "description": "z0.01",
+  "supported_items": [],
+  "weight": 1,
+  "max_level": 251,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "any"
+  ],
+  "effects": {
+    "tick": [
+      {
+        "requirements": {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "saddle": {
+                    "predicates": {
+                      "custom_data": {
+                        "z_sign": "+"
+                      },
+                      "enchantments": [
+                        {
+                          "enchantments": "player_impulse:z_2",
+                          "levels": {
+                            "min": 1,
+                            "max": 99
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": {
+            "type": "linear",
+            "base": 0.01,
+            "per_level_above_first": 0.01
+          }
+        }
+      },
+      {
+        "requirements": {
+          "condition": "any_of",
+          "terms": [
+            {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "slots": {
+                  "saddle": {
+                    "predicates": {
+                      "custom_data": {
+                        "z_sign": "-"
+                      },
+                      "enchantments": [
+                        {
+                          "enchantments": "player_impulse:z_2",
+                          "levels": {
+                            "min": 1,
+                            "max": 99
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            -1,
+            -1,
+            -1
+          ],
+          "magnitude": {
+            "type": "linear",
+            "base": 0.01,
+            "per_level_above_first": 0.01
+          }
+        }
+      }
+    ]
+  }
+}
