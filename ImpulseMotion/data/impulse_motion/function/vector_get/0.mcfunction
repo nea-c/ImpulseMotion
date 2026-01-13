@@ -13,17 +13,17 @@ function impulse_motion:vector_get/3.z.m with storage impulse_motion: _.macro
 
 
 # 合計にする
-scoreboard players operation #impulse_motion PlayerImpulse.X = #impulse_motion.PowerX PlayerImpulse.X
-scoreboard players operation #impulse_motion PlayerImpulse.X += #impulse_motion.PowerY PlayerImpulse.X
-scoreboard players operation #impulse_motion PlayerImpulse.X += #impulse_motion.PowerZ PlayerImpulse.X
+scoreboard players operation #impulse_motion ImpulseMotion.X = #impulse_motion.PowerX ImpulseMotion.X
+scoreboard players operation #impulse_motion ImpulseMotion.X += #impulse_motion.PowerY ImpulseMotion.X
+scoreboard players operation #impulse_motion ImpulseMotion.X += #impulse_motion.PowerZ ImpulseMotion.X
 
-scoreboard players operation #impulse_motion PlayerImpulse.Y = #impulse_motion.PowerX PlayerImpulse.Y
-scoreboard players operation #impulse_motion PlayerImpulse.Y += #impulse_motion.PowerY PlayerImpulse.Y
-scoreboard players operation #impulse_motion PlayerImpulse.Y += #impulse_motion.PowerZ PlayerImpulse.Y
+scoreboard players operation #impulse_motion ImpulseMotion.Y = #impulse_motion.PowerX ImpulseMotion.Y
+scoreboard players operation #impulse_motion ImpulseMotion.Y += #impulse_motion.PowerY ImpulseMotion.Y
+scoreboard players operation #impulse_motion ImpulseMotion.Y += #impulse_motion.PowerZ ImpulseMotion.Y
 
-scoreboard players operation #impulse_motion PlayerImpulse.Z = #impulse_motion.PowerX PlayerImpulse.Z
-scoreboard players operation #impulse_motion PlayerImpulse.Z += #impulse_motion.PowerY PlayerImpulse.Z
-scoreboard players operation #impulse_motion PlayerImpulse.Z += #impulse_motion.PowerZ PlayerImpulse.Z
+scoreboard players operation #impulse_motion ImpulseMotion.Z = #impulse_motion.PowerX ImpulseMotion.Z
+scoreboard players operation #impulse_motion ImpulseMotion.Z += #impulse_motion.PowerY ImpulseMotion.Z
+scoreboard players operation #impulse_motion ImpulseMotion.Z += #impulse_motion.PowerZ ImpulseMotion.Z
 
 # リセット
 scoreboard players reset #impulse_motion.PowerX

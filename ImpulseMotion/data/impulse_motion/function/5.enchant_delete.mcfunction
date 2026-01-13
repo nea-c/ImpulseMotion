@@ -5,6 +5,6 @@ item modify entity @s saddle {function:"set_enchantments",enchantments:{"impulse
 
 
 # スコアリセット
-scoreboard players reset @s PlayerImpulse.X
-scoreboard players reset @s PlayerImpulse.Y
-scoreboard players reset @s PlayerImpulse.Z
+scoreboard players reset @s ImpulseMotion.X
+scoreboard players reset @s ImpulseMotion.Y
+scoreboard players reset @s ImpulseMotion.Z

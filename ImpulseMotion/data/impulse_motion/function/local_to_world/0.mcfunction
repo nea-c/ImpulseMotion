@@ -13,17 +13,17 @@ function impulse_motion:local_to_world/3.z.m with storage impulse_motion: _.macr
 
 
 # 合計にする
-scoreboard players operation #impulse_motion PlayerImpulse.X = #impulse_motion.left PlayerImpulse.X
-scoreboard players operation #impulse_motion PlayerImpulse.X += #impulse_motion.left PlayerImpulse.Y
-scoreboard players operation #impulse_motion PlayerImpulse.X += #impulse_motion.left PlayerImpulse.Z
+scoreboard players operation #impulse_motion ImpulseMotion.X = #impulse_motion.left ImpulseMotion.X
+scoreboard players operation #impulse_motion ImpulseMotion.X += #impulse_motion.left ImpulseMotion.Y
+scoreboard players operation #impulse_motion ImpulseMotion.X += #impulse_motion.left ImpulseMotion.Z
 
-scoreboard players operation #impulse_motion PlayerImpulse.Y = #impulse_motion.up PlayerImpulse.X
-scoreboard players operation #impulse_motion PlayerImpulse.Y += #impulse_motion.up PlayerImpulse.Y
-scoreboard players operation #impulse_motion PlayerImpulse.Y += #impulse_motion.up PlayerImpulse.Z
+scoreboard players operation #impulse_motion ImpulseMotion.Y = #impulse_motion.up ImpulseMotion.X
+scoreboard players operation #impulse_motion ImpulseMotion.Y += #impulse_motion.up ImpulseMotion.Y
+scoreboard players operation #impulse_motion ImpulseMotion.Y += #impulse_motion.up ImpulseMotion.Z
 
-scoreboard players operation #impulse_motion PlayerImpulse.Z = #impulse_motion.forward PlayerImpulse.X
-scoreboard players operation #impulse_motion PlayerImpulse.Z += #impulse_motion.forward PlayerImpulse.Y
-scoreboard players operation #impulse_motion PlayerImpulse.Z += #impulse_motion.forward PlayerImpulse.Z
+scoreboard players operation #impulse_motion ImpulseMotion.Z = #impulse_motion.forward ImpulseMotion.X
+scoreboard players operation #impulse_motion ImpulseMotion.Z += #impulse_motion.forward ImpulseMotion.Y
+scoreboard players operation #impulse_motion ImpulseMotion.Z += #impulse_motion.forward ImpulseMotion.Z
 
 
 # リセット
