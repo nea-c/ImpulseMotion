@@ -1,4 +1,4 @@
-# PlayerImpulse
+# ImpulseMotion
 このデータパックは、ひろばお氏の[PlayerMotion](https://github.com/Hirobao1/CustomEnchant_PlayerMotion)を自分用に改編したものです。
 
 ## 対応バージョン
@@ -7,17 +7,17 @@ Minecraft JE 1.21.11
 
 ## 使い方
 
-`player_impulse: in`にデータをセットしてfunctionを実行！
+`impulse_motion: in`にデータをセットしてfunctionを実行！
 
 ### 例1：実行時の向きでMotionを代入する
 ```
-data modify storage player_impulse: in set value {x:0.0000,y:0.0000,z:1.0000, is_looking:true}
-execute rotated ~ -20 run function #player_impulse:
+data modify storage impulse_motion: in set value {x:0.0000,y:0.0000,z:1.0000, is_looking:true}
+execute rotated ~ -20 run function #impulse_motion:
 ```
 ### 例2：XYZの方向でMotionを代入する
 ```
-data modify storage player_impulse: in set value {x:1.0000,y:10.0000,z:1.0000}
-function #player_impulse:
+data modify storage impulse_motion: in set value {x:1.0000,y:10.0000,z:1.0000}
+function #impulse_motion:
 ```
 
 #### inに記載できるデータ一覧
