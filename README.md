@@ -29,7 +29,7 @@ function #impulse_motion:
  - is_knockback
 > ノックバック扱いかどうか True/False
  - is_looking
-> 実行時の向きに基づく付与かどうか True/False
+> 実行時の向きに基づくかどうか True/False
  - is_elytra_suppression
 > エリトラ飛行中の場合に付与量を調整するかどうか True/False
 
