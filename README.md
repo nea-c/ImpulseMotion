@@ -8,7 +8,7 @@
 Minecraft JE 1.21.11
 
 
-## 使い方
+## 使用方法
 
 `impulse_motion: in`にデータをセットしてfunctionを実行！
 
