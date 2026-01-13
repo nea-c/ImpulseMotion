@@ -9,12 +9,12 @@ Minecraft JE 1.21.11
 
 `player_impulse: in`にデータをセットしてfunctionを実行！
 
-### 例：実行時の向きでMotionを代入する
+### 例1：実行時の向きでMotionを代入する
 ```
 data modify storage player_impulse: in set value {x:0.0000,y:0.0000,z:1.0000, is_looking:true}
 execute rotated ~ -20 run function #player_impulse:
 ```
-### 例：XYZの方向でMotionを代入する
+### 例2：XYZの方向でMotionを代入する
 ```
 data modify storage player_impulse: in set value {x:1.0000,y:10.0000,z:1.0000}
 function #player_impulse:
