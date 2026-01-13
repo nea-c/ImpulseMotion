@@ -1,5 +1,5 @@
 # ImpulseMotion
-このデータパックは、ひろばお氏の[PlayerMotion](https://github.com/Hirobao1/CustomEnchant_PlayerMotion)を自分用に改編したものです。
+このデータパックは、ひろばお氏の[PlayerMotion](https://github.com/Hirobao1/CustomEnchant_PlayerMotion)を参考に作成したものです。
 
 ## 対応バージョン
 Minecraft JE 1.21.11
