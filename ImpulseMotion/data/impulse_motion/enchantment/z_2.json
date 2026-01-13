@@ -29,7 +29,7 @@
                   "saddle": {
                     "predicates": {
                       "custom_data": {
-                        "z_sign": "+"
+                        "impulse_motion.z_sign": "+"
                       },
                       "enchantments": [
                         {
@@ -78,7 +78,7 @@
                   "saddle": {
                     "predicates": {
                       "custom_data": {
-                        "z_sign": "-"
+                        "impulse_motion.z_sign": "-"
                       },
                       "enchantments": [
                         {
