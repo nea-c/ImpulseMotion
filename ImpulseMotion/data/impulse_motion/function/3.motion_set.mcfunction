@@ -31,7 +31,7 @@ scoreboard players operation @s ImpulseMotion.Z = #impulse_motion ImpulseMotion.
 # is_elytra_suppressionがtrue / エリトラでの飛行中 / Z成分が正数
 # ↑を全て満たすとき、Z成分を半減
 execute if data storage impulse_motion: _.in{is_elytra_suppression:true} \
-  if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_flying:1b}}} \
+  if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_fall_flying:1b}}} \
     if score #impulse_motion ImpulseMotion.Z matches 1.. \
       run scoreboard players operation #impulse_motion ImpulseMotion.Z /= #global 2
 

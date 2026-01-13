@@ -1,5 +1,4 @@
 
-
 ## データ記法
 # x/y/z : 方向ベクトル成分値 (0.0001単位)
 # is_knockback : ノックバック扱いかどうか True/False
@@ -9,18 +8,21 @@
 
 
 
+# スペクテイターのプレイヤーなら中断
+execute if entity @s[type=player,gamemode=spectator] run \
+  return fail
+# クリエイティブのプレイヤーで、かつクリエ飛行中なら中断
+execute if entity @s[type=player,gamemode=creative] \
+  if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_flying:1b,is_fall_flying:0b}}} run \
+    return fail
+
+
+
 # ストレージを初期化
 data modify storage impulse_motion: _ set value {in:{x:0.0000,y:0.0000,z:0.0000, is_knockback:false,is_looking:false,is_elytra_suppression:true} ,macro:{x1:0,x2:0,x3:0,y1:0,y2:0,y3:0,z1:0,z2:0,z3:0, x_sign:"+",y_sign:"+",z_sign:"+"}}
 
 # 入力値を受け取る
 data modify storage impulse_motion: _.in merge from storage impulse_motion: in
-
-
-
-# プレイヤーで、かつクリエ/スペクテイターでの飛行中なら中断
-execute if entity @s[type=player] run data modify storage impulse_motion: _.as set from entity @s
-execute if entity @s[type=player] if data storage impulse_motion: _.as.abilities{flying:1b} run \
-  return fail
 
 
 
