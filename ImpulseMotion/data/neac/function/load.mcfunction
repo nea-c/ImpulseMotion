@@ -21,5 +21,8 @@ scoreboard players set #global -1 -1
 scoreboard objectives add 100 dummy
 scoreboard players set #global 100 100
 
+scoreboard objectives add 1000 dummy
+scoreboard players set #global 1000 1000
+
 scoreboard objectives add 10000 dummy
 scoreboard players set #global 10000 10000
