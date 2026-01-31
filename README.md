@@ -30,6 +30,10 @@ function #impulse_motion:
 > ノックバック扱いかどうか True/False
  - is_looking
 > 実行時の向きに基づくかどうか True/False
- - is_elytra_suppression
-> エリトラ飛行中の場合に付与量を調整するかどうか True/False
+ - multiplier.elytra
+> エリトラ飛行中の場合の付与量を調整 (0.001単位)
+ - multiplier.in_water
+> 水中の場合の付与量を調整 (0.001単位)
+ - multiplier.swim
+> 泳いでいる場合の付与量を調整 (0.001単位)
 

@@ -28,12 +28,16 @@ scoreboard players operation @s ImpulseMotion.Y = #impulse_motion ImpulseMotion.
 scoreboard players operation @s ImpulseMotion.Z = #impulse_motion ImpulseMotion.Z
 
 
-# is_elytra_suppressionがtrue / エリトラでの飛行中 / Z成分が正数
-# ↑を全て満たすとき、Z成分を半減
-execute if data storage impulse_motion: _.in{is_elytra_suppression:true} \
-  if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_fall_flying:1b}}} \
-    if score #impulse_motion ImpulseMotion.Z matches 1.. \
-      run scoreboard players operation #impulse_motion ImpulseMotion.Z /= #global 2
+
+# エリトラでの飛行中 / Z成分が正数 のとき、functionを実行して付与量を調整
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_fall_flying:1b}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/elytra
+
+# 水中 のとき、functionを実行して付与量を調整
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_in_water:1b}}} run function impulse_motion:multiplier/in_water
+
+# 泳いでいる / Z成分が正数 のとき、functionを実行して付与量を調整
+execute if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_swimming:1b}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/swim
+
 
 
 # 値を取得 ( x1:1, x2:1/100, x3:1/10000 )
