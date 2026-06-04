@@ -1,0 +1,3006 @@
+{
+  "description": "",
+  "supported_items": [
+    "saddle"
+  ],
+  "weight": 1,
+  "max_level": 1,
+  "min_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 0,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 0,
+  "slots": [
+    "saddle"
+  ],
+  "effects": {
+    "location_changed": [
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x31": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": -214748.3648
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x30": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 107374.1824
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x29": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 53687.0912
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x28": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 26843.5456
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x27": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 13421.7728
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x26": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 6710.8864
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x25": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 3355.4432
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x24": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1677.7216
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x23": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 838.8608
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x22": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 419.4304
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x21": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 209.7152
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x20": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 104.8576
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x19": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 52.4288
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x18": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 26.2144
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x17": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 13.1072
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x16": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 6.5536
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x15": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 3.2768
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x14": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1.6384
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x13": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.8192
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x12": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.4096
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x11": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.2048
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x10": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.1024
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x9": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0512
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x8": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0256
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x7": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0128
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x6": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0064
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x5": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0032
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x4": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0016
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x3": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0008
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x2": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0004
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x1": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0002
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.x0": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            1,
+            0,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0001
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y31": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": -214748.3648
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y30": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 107374.1824
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y29": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 53687.0912
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y28": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 26843.5456
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y27": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 13421.7728
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y26": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 6710.8864
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y25": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 3355.4432
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y24": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1677.7216
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y23": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 838.8608
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y22": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 419.4304
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y21": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 209.7152
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y20": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 104.8576
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y19": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 52.4288
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y18": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 26.2144
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y17": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 13.1072
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y16": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 6.5536
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y15": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 3.2768
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y14": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1.6384
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y13": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.8192
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y12": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.4096
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y11": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.2048
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y10": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.1024
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y9": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0512
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y8": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0256
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y7": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0128
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y6": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0064
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y5": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0032
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y4": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0016
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y3": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0008
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y2": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0004
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y1": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0002
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.y0": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            1,
+            0
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0001
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z31": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": -214748.3648
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z30": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 107374.1824
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z29": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 53687.0912
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z28": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 26843.5456
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z27": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 13421.7728
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z26": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 6710.8864
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z25": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 3355.4432
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z24": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1677.7216
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z23": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 838.8608
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z22": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 419.4304
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z21": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 209.7152
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z20": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 104.8576
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z19": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 52.4288
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z18": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 26.2144
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z17": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 13.1072
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z16": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 6.5536
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z15": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 3.2768
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z14": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 1.6384
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z13": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.8192
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z12": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.4096
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z11": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.2048
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z10": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.1024
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z9": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0512
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z8": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0256
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z7": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0128
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z6": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0064
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z5": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0032
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z4": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0016
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z3": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0008
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z2": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0004
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z1": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0002
+        }
+      },
+      {
+        "requirements": {
+          "condition": "entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "saddle": {
+                "predicates": {
+                  "custom_data": {
+                    "impulse_motion.z0": true
+                  }
+                }
+              }
+            }
+          }
+        },
+        "effect": {
+          "type": "apply_impulse",
+          "direction": [
+            0,
+            0,
+            1
+          ],
+          "coordinate_scale": [
+            1,
+            1,
+            1
+          ],
+          "magnitude": 0.0001
+        }
+      },
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "impulse_motion:5.enchant_delete"
+        }
+      }
+    ]
+  }
+}
