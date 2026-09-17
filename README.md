@@ -42,11 +42,11 @@ function #impulse_motion:
  - is_looking
 > 実行時の向きに基づくかどうか True/False
  - multiplier.elytra
-> エリトラ飛行中の場合の付与量を調整 (0.001単位)
+> エリトラ飛行中の場合の付与量を調整
  - multiplier.in_water
-> 水中の場合の付与量を調整 (0.001単位)
+> 水中の場合の付与量を調整
  - multiplier.swim
-> 泳いでいる場合の付与量を調整 (0.001単位)
+> 泳いでいる場合の付与量を調整
 
 
 ## 更新履歴
