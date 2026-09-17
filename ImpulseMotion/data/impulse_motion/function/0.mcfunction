@@ -23,7 +23,7 @@ execute if predicate {type:"entity_properties",entity:"this",predicate:{vehicle:
 
 
 # ストレージを初期化
-data modify storage impulse_motion: _ set value {in:{x:0.0000,y:0.0000,z:0.0000, is_knockback:false,is_explosion:false,is_looking:false,multiplier:{elytra:0.500,swim:0.500,in_water:1.5}} ,macro:{x1:0,x2:0,x3:0,y1:0,y2:0,y3:0,z1:0,z2:0,z3:0, x_sign:"+",y_sign:"+",z_sign:"+"}}
+data modify storage impulse_motion: _ set value {in:{x:0.0000,y:0.0000,z:0.0000, is_knockback:false,is_explosion:false,is_looking:false,multiplier:{elytra:0.500,swim:0.500,in_water:1.5}}}
 
 # 入力値を受け取る
 data modify storage impulse_motion: _.in merge from storage impulse_motion: in
