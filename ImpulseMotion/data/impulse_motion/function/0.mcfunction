@@ -17,7 +17,9 @@ execute if entity @s[type=player,gamemode=spectator] run \
 execute if entity @s[type=player,gamemode=creative] \
   if predicate {type:"entity_properties",entity:"this",predicate:{flags:{is_flying:1b,is_fall_flying:0b}}} run \
     return fail
-
+# 何かに乗っているなら中断
+execute if predicate {type:"entity_properties",entity:"this",predicate:{vehicle:{}}} run \
+  return fail
 
 
 # ストレージを初期化
