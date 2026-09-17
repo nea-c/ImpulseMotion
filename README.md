@@ -49,6 +49,10 @@ function #impulse_motion:
 > 泳いでいる場合の付与量を調整
 
 
+## ライセンス
+
+[MIT License](https://github.com/nea-c/ImpulseMotion/blob/master/LICENSE) に基づく
+
 ## 更新履歴
 
 * r2
