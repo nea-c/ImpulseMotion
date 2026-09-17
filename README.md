@@ -1,27 +1,15 @@
 # ImpulseMotion
 
-`apply_impulse`が問題を多く抱えているので、このリポジトリはアーカイブされました。
-
-問題がアップデート等で解決された場合は復帰するかもしれません。
-
----
-
-## 現在私が発見しているapply_impulseの問題点
-
-* 付与した速度分のブロック距離が開いていないと該当方向に移動しない
-* 水平方向の速度が削除される
-
-
----
-
 
 このデータパックは、ひろばお氏の[PlayerMotion](https://github.com/Hirobao1/CustomEnchant_PlayerMotion)を参考に自分用として作成したものです。
 
 大規模な内部処理の変更により、使用感・同一tick動作での挙動が異なります。
 
+`apply_impulse`が抱えていた問題が26.3で修正されたため、アーカイブを解除・挙動を26.3用に調整しました。
+
 
 ## 動作要件
-Minecraft JE 1.21.11
+Minecraft JE 26.3
 
 
 ## 使用方法
@@ -42,6 +30,8 @@ function #impulse_motion:
 #### inに記載できるデータ一覧
  - x / y / z
 > 方向ベクトル成分値 (0.0001単位)
+ - is_explosion
+> 爆発扱いかどうか True/False
  - is_knockback
 > ノックバック扱いかどうか True/False
  - is_looking

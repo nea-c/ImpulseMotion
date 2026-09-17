@@ -1,15 +1,15 @@
 
 
-execute store result score #impulse_motion neac_value run data get storage impulse_motion: _.in.multiplier.in_water 1000
 
-scoreboard players operation #impulse_motion ImpulseMotion.X *= #impulse_motion neac_value
-scoreboard players operation #impulse_motion ImpulseMotion.X /= #global 1000
+execute store result storage impulse_motion: _.macro.PowerX int 1 run scoreboard players get #impulse_motion ImpulseMotion.X
+execute store result storage impulse_motion: _.macro.PowerY int 1 run scoreboard players get #impulse_motion ImpulseMotion.Y
+execute store result storage impulse_motion: _.macro.PowerZ int 1 run scoreboard players get #impulse_motion ImpulseMotion.Z
 
-scoreboard players operation #impulse_motion ImpulseMotion.Y *= #impulse_motion neac_value
-scoreboard players operation #impulse_motion ImpulseMotion.Y /= #global 1000
+data modify storage impulse_motion: _.macro.PowerX set compute default float {type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.macro.PowerX"},{type:"storage",storage:"impulse_motion:",path:"_.in.multiplier.in_water"}]}
+data modify storage impulse_motion: _.macro.PowerY set compute default float {type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.macro.PowerY"},{type:"storage",storage:"impulse_motion:",path:"_.in.multiplier.in_water"}]}
+data modify storage impulse_motion: _.macro.PowerZ set compute default float {type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.macro.PowerZ"},{type:"storage",storage:"impulse_motion:",path:"_.in.multiplier.in_water"}]}
 
-scoreboard players operation #impulse_motion ImpulseMotion.Z *= #impulse_motion neac_value
-scoreboard players operation #impulse_motion ImpulseMotion.Z /= #global 1000
-
-
+execute store result score #impulse_motion ImpulseMotion.X run data get storage impulse_motion: _.macro.PowerX 1
+execute store result score #impulse_motion ImpulseMotion.Y run data get storage impulse_motion: _.macro.PowerY 1
+execute store result score #impulse_motion ImpulseMotion.Z run data get storage impulse_motion: _.macro.PowerZ 1
 

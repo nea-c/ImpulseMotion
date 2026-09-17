@@ -1,8 +1,8 @@
 
 
-# ノックバック耐性を取得(x)
+# 爆発ノックバック耐性を取得(x)
 # 1-xし、最小値は0にする
-  execute store result storage impulse_motion: _.resistance double 0.0001 run attribute @s knockback_resistance get 10000
+  execute store result storage impulse_motion: _.resistance double 0.0001 run attribute @s explosion_knockback_resistance get 10000
   data modify storage impulse_motion: _.resistance set compute default float {type:"max",inputs:[{type:"sub",left:1,right:{type:"storage","storage":"impulse_motion:","path":"_.resistance"}},0]}
 
 # それぞれの項目にノックバック耐性の倍率を適用

@@ -3,13 +3,13 @@
 
 tp @s ^1 ^ ^
 data modify storage impulse_motion: _.Pos set from entity @s Pos
-function impulse_motion:local_to_world/1.x.m with storage impulse_motion: _.macro
+function impulse_motion:world_to_local/1.x.m with storage impulse_motion: _.macro
 tp @s ^ ^1 ^
 data modify storage impulse_motion: _.Pos set from entity @s Pos
-function impulse_motion:local_to_world/2.y.m with storage impulse_motion: _.macro
+function impulse_motion:world_to_local/2.y.m with storage impulse_motion: _.macro
 tp @s ^ ^ ^1
 data modify storage impulse_motion: _.Pos set from entity @s Pos
-function impulse_motion:local_to_world/3.z.m with storage impulse_motion: _.macro
+function impulse_motion:world_to_local/3.z.m with storage impulse_motion: _.macro
 
 
 # 合計にする

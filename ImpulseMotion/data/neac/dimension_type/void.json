@@ -4,11 +4,13 @@
     "minecraft:gameplay/bed_rule": {
       "can_set_spawn": "never",
       "can_sleep": "never",
-      "explodes": false
+      "destroy_on_use": false,
+      "destroy_on_leave": false
     },
     "minecraft:gameplay/nether_portal_spawns_piglin": false,
     "minecraft:gameplay/respawn_anchor_works": false,
     "minecraft:gameplay/piglins_zombify": false,
+    "minecraft:visual/ambient_light_color": "#ffffff",
     "minecraft:gameplay/can_start_raid": false,
     "minecraft:gameplay/water_evaporates": false,
     "minecraft:visual/fog_color": "#c0d8ff",
@@ -18,6 +20,7 @@
   "has_ceiling": false,
   "has_skylight": true,
   "has_fixed_time": true,
+  "has_ender_dragon_fight": false,
   "height": 64,
   "infiniburn": "#infiniburn_overworld",
   "logical_height": 64,

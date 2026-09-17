@@ -1,25 +1,9 @@
 
 
-execute store result storage impulse_motion: _.macro.PowerX int 1 run scoreboard players get #impulse_motion ImpulseMotion.X
-execute store result storage impulse_motion: _.macro.PowerY int 1 run scoreboard players get #impulse_motion ImpulseMotion.Y
-execute store result storage impulse_motion: _.macro.PowerZ int 1 run scoreboard players get #impulse_motion ImpulseMotion.Z
-
-# 絶対座標ベクトルへ変換
-execute rotated as @s in neac: positioned 0.0 0.0 0.0 as 1604-1604-1604-1604-1604 run function impulse_motion:local_to_world/0
-
-
 # 実行者のスコアを加算
 scoreboard players operation #impulse_motion ImpulseMotion.X += @s ImpulseMotion.X
 scoreboard players operation #impulse_motion ImpulseMotion.Y += @s ImpulseMotion.Y
 scoreboard players operation #impulse_motion ImpulseMotion.Z += @s ImpulseMotion.Z
-
-
-execute if score #impulse_motion ImpulseMotion.X matches 1000001.. run scoreboard players set #impulse_motion ImpulseMotion.X 1000000
-execute if score #impulse_motion ImpulseMotion.X matches ..-1000001 run scoreboard players set #impulse_motion ImpulseMotion.X -1000000
-execute if score #impulse_motion ImpulseMotion.Y matches 1000001.. run scoreboard players set #impulse_motion ImpulseMotion.Y 1000000
-execute if score #impulse_motion ImpulseMotion.Y matches ..-1000001 run scoreboard players set #impulse_motion ImpulseMotion.Y -1000000
-execute if score #impulse_motion ImpulseMotion.Z matches 1000001.. run scoreboard players set #impulse_motion ImpulseMotion.Z 1000000
-execute if score #impulse_motion ImpulseMotion.Z matches ..-1000001 run scoreboard players set #impulse_motion ImpulseMotion.Z -100000
 
 
 # 実行者に保持
@@ -30,13 +14,13 @@ scoreboard players operation @s ImpulseMotion.Z = #impulse_motion ImpulseMotion.
 
 
 # エリトラでの飛行中 / Z成分が正数 のとき、functionを実行して付与量を調整
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_fall_flying:1b}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/elytra
+execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{is_fall_flying:true}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/elytra
 
 # 水中 のとき、functionを実行して付与量を調整
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_in_water:1b}}} run function impulse_motion:multiplier/in_water
+execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{is_in_water:true}}} run function impulse_motion:multiplier/in_water
 
 # 泳いでいる / Z成分が正数 のとき、functionを実行して付与量を調整
-execute if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_swimming:1b}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/swim
+execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{is_swimming:true}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/swim
 
 
 
@@ -64,18 +48,6 @@ scoreboard players reset #impulse_motion
 
 
 # エンチャント付与
-item modify entity @s saddle {function:"set_enchantments",enchantments:{"impulse_motion:apply":1}}
+item modify entity @s saddle {type:"set_enchantments",enchantments:{"impulse_motion:apply":1}}
 function impulse_motion:4.enchant_set with storage impulse_motion: _.macro
 
-
-
-execute if entity @s[gamemode=survival] run data modify storage impulse_motion: _.gamemode set value "survival"
-execute if entity @s[gamemode=adventure] run data modify storage impulse_motion: _.gamemode set value "adventure"
-execute if entity @s[gamemode=creative] run data modify storage impulse_motion: _.gamemode set value "creative"
-
-gamemode spectator @s
-
-execute if data storage impulse_motion: _{gamemode:"survival"} run gamemode survival @s
-execute if data storage impulse_motion: _{gamemode:"adventure"} run gamemode adventure @s
-execute if data storage impulse_motion: _{gamemode:"creative"} run gamemode adventure @s
-execute if data storage impulse_motion: _{gamemode:"creative"} run gamemode creative @s
