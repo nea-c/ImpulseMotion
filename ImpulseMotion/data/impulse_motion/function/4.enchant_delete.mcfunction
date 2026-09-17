@@ -1,10 +1,10 @@
 
 
-
-item modify entity @s saddle {type:"set_enchantments",enchantments:{"impulse_motion:apply":0}}
-# item modify entity @s saddle {type:"set_custom_data", tag: {"impulse_motion.x31":false,"impulse_motion.x30":false,"impulse_motion.x29":false,"impulse_motion.x28":false,"impulse_motion.x27":false,"impulse_motion.x26":false,"impulse_motion.x25":false,"impulse_motion.x24":false,"impulse_motion.x23":false,"impulse_motion.x22":false,"impulse_motion.x21":false,"impulse_motion.x20":false,"impulse_motion.x19":false,"impulse_motion.x18":false,"impulse_motion.x17":false,"impulse_motion.x16":false,"impulse_motion.x15":false,"impulse_motion.x14":false,"impulse_motion.x13":false,"impulse_motion.x12":false,"impulse_motion.x11":false,"impulse_motion.x10":false,"impulse_motion.x9":false,"impulse_motion.x8":false,"impulse_motion.x7":false,"impulse_motion.x6":false,"impulse_motion.x5":false,"impulse_motion.x4":false,"impulse_motion.x3":false,"impulse_motion.x2":false,"impulse_motion.x1":false,"impulse_motion.x0":false}}
-# item modify entity @s saddle {type:"set_custom_data", tag: {"impulse_motion.y31":false,"impulse_motion.y30":false,"impulse_motion.y29":false,"impulse_motion.y28":false,"impulse_motion.y27":false,"impulse_motion.y26":false,"impulse_motion.y25":false,"impulse_motion.y24":false,"impulse_motion.y23":false,"impulse_motion.y22":false,"impulse_motion.y21":false,"impulse_motion.y20":false,"impulse_motion.y19":false,"impulse_motion.y18":false,"impulse_motion.y17":false,"impulse_motion.y16":false,"impulse_motion.y15":false,"impulse_motion.y14":false,"impulse_motion.y13":false,"impulse_motion.y12":false,"impulse_motion.y11":false,"impulse_motion.y10":false,"impulse_motion.y9":false,"impulse_motion.y8":false,"impulse_motion.y7":false,"impulse_motion.y6":false,"impulse_motion.y5":false,"impulse_motion.y4":false,"impulse_motion.y3":false,"impulse_motion.y2":false,"impulse_motion.y1":false,"impulse_motion.y0":false}}
-# item modify entity @s saddle {type:"set_custom_data", tag: {"impulse_motion.z31":false,"impulse_motion.z30":false,"impulse_motion.z29":false,"impulse_motion.z28":false,"impulse_motion.z27":false,"impulse_motion.z26":false,"impulse_motion.z25":false,"impulse_motion.z24":false,"impulse_motion.z23":false,"impulse_motion.z22":false,"impulse_motion.z21":false,"impulse_motion.z20":false,"impulse_motion.z19":false,"impulse_motion.z18":false,"impulse_motion.z17":false,"impulse_motion.z16":false,"impulse_motion.z15":false,"impulse_motion.z14":false,"impulse_motion.z13":false,"impulse_motion.z12":false,"impulse_motion.z11":false,"impulse_motion.z10":false,"impulse_motion.z9":false,"impulse_motion.z8":false,"impulse_motion.z7":false,"impulse_motion.z6":false,"impulse_motion.z5":false,"impulse_motion.z4":false,"impulse_motion.z3":false,"impulse_motion.z2":false,"impulse_motion.z1":false,"impulse_motion.z0":false}}
+data modify storage impulse_motion: _.bits set value {}
+item modify entity @s saddle [\
+  {type:"set_enchantments",enchantments:{"impulse_motion:apply":0}},\
+  {type:"copy_custom_data",source:{type:"storage",source:"impulse_motion:"},ops:[{source:"_.bits",target:"impulse_motion",op:"replace"}]}\
+]
 
 
 # スコアリセット
