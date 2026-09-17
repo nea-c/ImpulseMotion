@@ -18,7 +18,7 @@
     "saddle"
   ],
   "effects": {
-    "location_changed": [
+    "tick": [
       {
         "requirements": {
           "type": "entity_properties",
