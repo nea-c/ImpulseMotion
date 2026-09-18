@@ -1,7 +1,7 @@
 
 
 # 実行者の角度を取得
-execute rotated as @s in neac: as 1604-1604-1604-1604-1604 run function impulse_motion:.get_rotation
+function impulse_motion:.get_rotation/1
 
 # 角度を使用してローカル座標系に変換
 data modify storage impulse_motion: _.calc.sx set compute default float {type:"sin",input:{type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.Rotation[1]"},0.01745329251994329576923690768489]}}
@@ -38,5 +38,5 @@ execute store result score #impulse_motion ImpulseMotion.Y run data get storage 
 execute store result score #impulse_motion ImpulseMotion.Z run data get storage impulse_motion: _.calc.z 10000
 
 
-function impulse_motion:3.motion_set
+function impulse_motion:4.motion_set
 

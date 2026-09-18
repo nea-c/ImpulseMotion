@@ -1,4 +1,7 @@
 
+# 自身が実行者じゃなくてis_lookingの場合、変換を行う
+execute if entity @s[tag=!impulse_motion.executer,predicate=!impulse_motion:has_player_passenger] if data storage impulse_motion: _.in{is_looking:true} run function impulse_motion:5.convert
+
 
 # 実行者のスコアを加算
 scoreboard players operation #impulse_motion ImpulseMotion.X += @s ImpulseMotion.X
@@ -23,6 +26,11 @@ execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{i
 execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{is_swimming:true}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/swim
 
 
+
+# プレイヤーが上に載っている場合、エンチャントでのMotionが効かないので直でMotion付与する挙動にする
+execute if entity @s[predicate=impulse_motion:has_player_passenger] run function impulse_motion:5.motion_set_no_enchant
+
+
 # 初期値
 data modify storage impulse_motion: _.bits set value {\
   "x31":false,"x30":false,"x29":false,"x28":false,"x27":false,"x26":false,"x25":false,"x24":false,"x23":false,"x22":false,"x21":false,"x20":false,"x19":false,"x18":false,"x17":false,"x16":false,"x15":false,"x14":false,"x13":false,"x12":false,"x11":false,"x10":false,"x9":false,"x8":false,"x7":false,"x6":false,"x5":false,"x4":false,"x3":false,"x2":false,"x1":false,"x0":false,\
@@ -36,10 +44,8 @@ function impulse_motion:store/y
 function impulse_motion:store/z
 
 
-
 # リセット
 scoreboard players reset #impulse_motion
-
 
 # アイテムがない場合付与
 execute if entity @s[type=!#impulse_motion:use_armor_body] unless items entity @s armor.body * run item replace entity @s armor.body with stone[equippable={slot:"body",equip_sound:"entity.cod.ambient"},enchantments={binding_curse:1,vanishing_curse:1}]
