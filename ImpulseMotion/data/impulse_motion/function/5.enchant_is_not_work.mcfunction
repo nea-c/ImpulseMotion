@@ -1,8 +1,6 @@
 
-
-# 実行者の角度を取得
-execute if data storage impulse_motion: _.in{is_looking:true} run function impulse_motion:.get_rotation/0
-execute unless data storage impulse_motion: _.in{is_looking:true} run function impulse_motion:.get_rotation/1
+# 実行角度を取得
+function impulse_motion:.get_rotation/2.as
 
 # 角度を使用してローカル座標系に変換
 data modify storage impulse_motion: _.calc.sx set compute default float {type:"sin",input:{type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.Rotation[1]"},0.01745329251994329576923690768489]}}

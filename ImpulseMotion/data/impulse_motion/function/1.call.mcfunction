@@ -1,7 +1,7 @@
 
 
 # ストレージを初期化
-data modify storage impulse_motion: _ set value {in:{x:0.0000,y:0.0000,z:0.0000, is_looking:false, is_vehicle_execution:true, is_knockback:false, is_explosion:false, multiplier:{elytra:0.500,swim:0.500,in_water:1.5}}}
+data modify storage impulse_motion: _ set value {in:{x:0.0000,y:0.0000,z:0.0000, is_looking:false, is_vehicle_execution:false, is_knockback:false, is_explosion:false, multiplier:{elytra:0.500,swim:0.500,in_water:1.5}}}
 
 # 入力値を受け取る
 data modify storage impulse_motion: _.in merge from storage impulse_motion: in

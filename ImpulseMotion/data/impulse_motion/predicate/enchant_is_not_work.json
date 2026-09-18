@@ -1,0 +1,101 @@
+{
+  "type": "any_of",
+  "terms": [
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "entity_type": [
+          "horse",
+          "zombie_horse",
+          "skeleton_horse",
+          "mule",
+          "donkey",
+          "camel",
+          "camel_husk"
+        ],
+        "passenger": {
+          "entity_type": "player"
+        },
+        "slots": {
+          "saddle": {
+            "count": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "entity_type": [
+          "happy_ghast"
+        ],
+        "passenger": {
+          "entity_type": "player"
+        },
+        "slots": {
+          "armor.body": {
+            "count": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "entity_type": [
+          "strider"
+        ],
+        "passenger": {
+          "entity_type": "player",
+          "slots": {
+            "weapon.*": {
+              "items": [
+                "warped_fungus_on_a_stick"
+              ]
+            }
+          }
+        },
+        "slots": {
+          "saddle": {
+            "count": {
+              "min": 1
+            }
+          }
+        }
+      }
+    },
+    {
+      "type": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "entity_type": [
+          "pig"
+        ],
+        "passenger": {
+          "entity_type": "player",
+          "slots": {
+            "weapon.*": {
+              "items": [
+                "carrot_on_a_stick"
+              ]
+            }
+          }
+        },
+        "slots": {
+          "saddle": {
+            "count": {
+              "min": 1
+            }
+          }
+        }
+      }
+    }
+  ]
+}

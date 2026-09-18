@@ -1,9 +1,0 @@
-{
-  "type": "entity_properties",
-  "entity": "this",
-  "predicate": {
-    "passenger": {
-      "entity_type": "player"
-    }
-  }
-}
