@@ -37,4 +37,4 @@ execute if data storage impulse_motion: _.in{is_looking:true} run \
 
 
 # 向きに関係なくXYZ軸にMotion付与
-function impulse_motion:3.xyz
+function impulse_motion:4.motion_set
