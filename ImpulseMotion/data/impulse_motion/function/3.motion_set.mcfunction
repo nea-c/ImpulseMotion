@@ -23,10 +23,6 @@ execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{i
 execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{is_swimming:true}}} if score #impulse_motion ImpulseMotion.Z matches 1.. run function impulse_motion:multiplier/swim
 
 
-
-# アイテムがない場合付与
-execute unless items entity @s armor.body * run item replace entity @s armor.body with stone[equippable={slot:"body",equip_sound:"entity.cod.ambient"},enchantments={binding_curse:1,vanishing_curse:1}]
-
 # 初期値
 data modify storage impulse_motion: _.bits set value {\
   "x31":false,"x30":false,"x29":false,"x28":false,"x27":false,"x26":false,"x25":false,"x24":false,"x23":false,"x22":false,"x21":false,"x20":false,"x19":false,"x18":false,"x17":false,"x16":false,"x15":false,"x14":false,"x13":false,"x12":false,"x11":false,"x10":false,"x9":false,"x8":false,"x7":false,"x6":false,"x5":false,"x4":false,"x3":false,"x2":false,"x1":false,"x0":false,\
@@ -45,12 +41,23 @@ function impulse_motion:store/z
 scoreboard players reset #impulse_motion
 
 
+# アイテムがない場合付与
+execute if entity @s[type=!#impulse_motion:use_armor_body] unless items entity @s armor.body * run item replace entity @s armor.body with stone[equippable={slot:"body",equip_sound:"entity.cod.ambient"},enchantments={binding_curse:1,vanishing_curse:1}]
+execute if entity @s[type=#impulse_motion:use_armor_body] unless items entity @s armor.feet * run item replace entity @s armor.feet with stone[equippable={slot:"feet",equip_sound:"entity.cod.ambient"},enchantments={binding_curse:1,vanishing_curse:1}]
 
 
 # エンチャント付与
-item modify entity @s armor.body [\
-  {type:"set_enchantments",enchantments:{"impulse_motion:apply":1}},\
-  {type:"copy_custom_data",source:{type:"storage",source:"impulse_motion:"},ops:[{source:"_.bits",target:"impulse_motion",op:"replace"}]}\
-]
+execute if entity @s[type=!#impulse_motion:use_armor_body] run \
+  item modify entity @s armor.body [\
+    {type:"set_enchantments",enchantments:{"impulse_motion:apply":1}},\
+    {type:"copy_custom_data",source:{type:"storage",source:"impulse_motion:"},ops:[{source:"_.bits",target:"impulse_motion",op:"replace"}]}\
+  ]
+execute if entity @s[type=#impulse_motion:use_armor_body] run \
+  item modify entity @s armor.feet [\
+    {type:"set_enchantments",enchantments:{"impulse_motion:apply":1}},\
+    {type:"copy_custom_data",source:{type:"storage",source:"impulse_motion:"},ops:[{source:"_.bits",target:"impulse_motion",op:"replace"}]}\
+  ]
+
+
 
 

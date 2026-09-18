@@ -13,7 +13,8 @@
   },
   "anvil_cost": 0,
   "slots": [
-    "body"
+    "body",
+    "feet"
   ],
   "effects": {
     "tick": [
@@ -23,7 +24,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -56,7 +57,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -89,7 +90,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -122,7 +123,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -155,7 +156,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -188,7 +189,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -221,7 +222,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -254,7 +255,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -287,7 +288,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -320,7 +321,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -353,7 +354,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -386,7 +387,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -419,7 +420,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -452,7 +453,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -485,7 +486,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -518,7 +519,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -551,7 +552,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -584,7 +585,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -617,7 +618,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -650,7 +651,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -683,7 +684,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -716,7 +717,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -749,7 +750,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -782,7 +783,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -815,7 +816,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -848,7 +849,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -881,7 +882,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -914,7 +915,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -947,7 +948,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -980,7 +981,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1013,7 +1014,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1046,7 +1047,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1079,7 +1080,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1112,7 +1113,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1145,7 +1146,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1178,7 +1179,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1211,7 +1212,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1244,7 +1245,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1277,7 +1278,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1310,7 +1311,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1343,7 +1344,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1376,7 +1377,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1409,7 +1410,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1442,7 +1443,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1475,7 +1476,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1508,7 +1509,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1541,7 +1542,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1574,7 +1575,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1607,7 +1608,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1640,7 +1641,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1673,7 +1674,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1706,7 +1707,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1739,7 +1740,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1772,7 +1773,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1805,7 +1806,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1838,7 +1839,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1871,7 +1872,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1904,7 +1905,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1937,7 +1938,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -1970,7 +1971,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2003,7 +2004,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2036,7 +2037,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2069,7 +2070,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2102,7 +2103,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2135,7 +2136,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2168,7 +2169,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2201,7 +2202,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2234,7 +2235,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2267,7 +2268,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2300,7 +2301,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2333,7 +2334,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2366,7 +2367,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2399,7 +2400,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2432,7 +2433,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2465,7 +2466,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2498,7 +2499,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2531,7 +2532,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2564,7 +2565,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2597,7 +2598,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2630,7 +2631,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2663,7 +2664,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2696,7 +2697,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2729,7 +2730,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2762,7 +2763,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2795,7 +2796,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2828,7 +2829,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2861,7 +2862,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2894,7 +2895,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2927,7 +2928,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2960,7 +2961,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -2993,7 +2994,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -3026,7 +3027,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -3059,7 +3060,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -3092,7 +3093,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -3125,7 +3126,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
@@ -3158,7 +3159,7 @@
           "entity": "this",
           "predicate": {
             "slots": {
-              "armor.body": {
+              "armor.*": {
                 "predicates": {
                   "custom_data": {
                     "impulse_motion": {
