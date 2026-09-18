@@ -32,56 +32,56 @@ data modify storage impulse_motion: in set value {x:1.0000,y:10.0000,z:1.0000}
 function #impulse_motion:
 ```
 
-#### inに記載できるデータ一覧
- - x / y / z
+### inに記載できるデータ一覧
+ - #### x / y / z
 > FLOAT (0.0001単位)
 
 方向ベクトル
 
 
- - is_looking
+ - #### is_looking
 > BOOL
 
 実行時の向きに基づくかどうか  
 デフォルト: False
 
 
- - is_vehicle_execution
+ - #### is_vehicle_execution
 > BOOL
 
 vehicleが存在するときに動作するかどうか  
 デフォルト: TRUE
 
 
- - is_knockback
+ - #### is_knockback
 > BOOL
 
 ノックバック扱いかどうか  
 デフォルト: False
 
 
- - is_explosion
+ - #### is_explosion
 > BOOL
 
 爆発扱いかどうか  
 デフォルト: False
 
 
- - multiplier.elytra
+ - #### multiplier.elytra
 > FLOAT
 
 エリトラ飛行中の場合の付与量を調整  
 デフォルト: 0.5
 
 
- - multiplier.in_water
+ - #### multiplier.in_water
 > FLOAT
 
 水中の場合の付与量を調整  
 デフォルト: 0.5
 
 
- - multiplier.swim
+ - #### multiplier.swim
 > FLOAT
 
 泳いでいる場合の付与量を調整  
