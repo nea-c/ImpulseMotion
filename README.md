@@ -34,25 +34,58 @@ function #impulse_motion:
 
 #### inに記載できるデータ一覧
  - x / y / z
-> 方向ベクトル成分値 (0.0001単位)
+> FLOAT (0.0001単位)
+
+方向ベクトル
+
+
  - is_looking
-> 実行時の向きに基づくかどうか True/False  
-> デフォルト: False
+> BOOL
+
+実行時の向きに基づくかどうか  
+デフォルト: False
+
+
  - is_vehicle_execution
-> vehicleが存在するときに動作するかどうか True/False  
-> デフォルト: TRUE
+> BOOL
+
+vehicleが存在するときに動作するかどうか  
+デフォルト: TRUE
+
+
  - is_knockback
-> ノックバック扱いかどうか True/False  
-> デフォルト: False
+> BOOL
+
+ノックバック扱いかどうか  
+デフォルト: False
+
+
  - is_explosion
-> 爆発扱いかどうか True/False  
-> デフォルト: False
+> BOOL
+
+爆発扱いかどうか  
+デフォルト: False
+
+
  - multiplier.elytra
-> エリトラ飛行中の場合の付与量を調整
+> FLOAT
+
+エリトラ飛行中の場合の付与量を調整  
+デフォルト: 0.5
+
+
  - multiplier.in_water
-> 水中の場合の付与量を調整
+> FLOAT
+
+水中の場合の付与量を調整  
+デフォルト: 0.5
+
+
  - multiplier.swim
-> 泳いでいる場合の付与量を調整
+> FLOAT
+
+泳いでいる場合の付与量を調整  
+デフォルト: 1.5
 
 
 ## ライセンス
