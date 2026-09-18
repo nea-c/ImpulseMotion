@@ -14,7 +14,7 @@ r2
 
 
 ## 動作要件
-Minecraft JE 26.3
+Minecraft JE 26.3~
 
 
 ## 使用方法
@@ -56,6 +56,7 @@ function #impulse_motion:
 ## 更新履歴
 
 * r2
+  * 対応バージョンをMCJE 26.3~に変更
   * 騎乗中判定で中断する仕様を追加
   * is_explosionを追加
   * ローカル座標系からグローバル座標系に変換する無駄な挙動を削除
