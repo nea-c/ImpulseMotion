@@ -3189,7 +3189,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "impulse_motion:6.enchant_delete"
+          "function": "impulse_motion:__enchant_delete"
         }
       }
     ]

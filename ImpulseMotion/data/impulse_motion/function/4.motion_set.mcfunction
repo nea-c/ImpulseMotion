@@ -28,7 +28,7 @@ execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{i
 
 
 # プレイヤーが上に載っている場合、エンチャントでのMotionが効かないので直でMotion付与する挙動にする
-execute if entity @s[predicate=impulse_motion:has_player_passenger] run function impulse_motion:5.motion_set_no_enchant
+execute if entity @s[predicate=impulse_motion:has_player_passenger] run function impulse_motion:6.motion_set_no_enchant
 
 
 # 初期値
