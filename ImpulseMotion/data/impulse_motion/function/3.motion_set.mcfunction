@@ -24,8 +24,8 @@ execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{i
 
 
 
-# saddleがない場合付与
-execute unless items entity @s saddle * run item replace entity @s saddle with saddle[equippable={slot:saddle,equip_sound:"entity.cod.ambient"},enchantments={binding_curse:1,vanishing_curse:1}]
+# アイテムがない場合付与
+execute unless items entity @s armor.body * run item replace entity @s armor.body with stone[equippable={slot:"body",equip_sound:"entity.cod.ambient"},enchantments={binding_curse:1,vanishing_curse:1}]
 
 # 初期値
 data modify storage impulse_motion: _.bits set value {\
@@ -48,7 +48,7 @@ scoreboard players reset #impulse_motion
 
 
 # エンチャント付与
-item modify entity @s saddle [\
+item modify entity @s armor.body [\
   {type:"set_enchantments",enchantments:{"impulse_motion:apply":1}},\
   {type:"copy_custom_data",source:{type:"storage",source:"impulse_motion:"},ops:[{source:"_.bits",target:"impulse_motion",op:"replace"}]}\
 ]
