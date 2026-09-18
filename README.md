@@ -35,12 +35,18 @@ function #impulse_motion:
 #### inに記載できるデータ一覧
  - x / y / z
 > 方向ベクトル成分値 (0.0001単位)
- - is_explosion
-> 爆発扱いかどうか True/False
- - is_knockback
-> ノックバック扱いかどうか True/False
  - is_looking
-> 実行時の向きに基づくかどうか True/False
+> 実行時の向きに基づくかどうか True/False  
+> デフォルト: False
+ - is_vehicle_execution
+> vehicleが存在するときに動作するかどうか True/False  
+> デフォルト: TRUE
+ - is_knockback
+> ノックバック扱いかどうか True/False  
+> デフォルト: False
+ - is_explosion
+> 爆発扱いかどうか True/False  
+> デフォルト: False
  - multiplier.elytra
 > エリトラ飛行中の場合の付与量を調整
  - multiplier.in_water
@@ -59,6 +65,7 @@ function #impulse_motion:
   * 対応バージョンをMCJE 26.3~に変更
   * 騎乗中判定で下のエンティティに効果を適応する仕様を追加
   * is_explosionを追加
+  * is_vehicle_executionを追加
   * ローカル座標系からグローバル座標系に変換する無駄な挙動を削除
   * 上限下限を削除
     * オーバーフローの可能性がありますが、入力値側で対策してください(実際そうそうないと思う。`1000.0000`とかを入力値にするってなんだよ)
