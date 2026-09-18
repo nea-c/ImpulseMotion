@@ -34,9 +34,9 @@ data modify storage impulse_motion: _.calc.z set compute default float {type:"su
 
 
 # 計算後の値を取得
-execute store result score #impulse_motion ImpulseMotion.X run data get storage impulse_motion: _.calc.x 10000
-execute store result score #impulse_motion ImpulseMotion.Y run data get storage impulse_motion: _.calc.y 10000
-execute store result score #impulse_motion ImpulseMotion.Z run data get storage impulse_motion: _.calc.z 10000
+execute store result score #impulse_motion ImpulseMotion.X run compute default float {type:"round",input:{type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.calc.x"},10000]}} 1
+execute store result score #impulse_motion ImpulseMotion.Y run compute default float {type:"round",input:{type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.calc.y"},10000]}} 1
+execute store result score #impulse_motion ImpulseMotion.Z run compute default float {type:"round",input:{type:"mul",inputs:[{type:"storage",storage:"impulse_motion:",path:"_.calc.z"},10000]}} 1
 
 
 
