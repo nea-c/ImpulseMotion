@@ -1,7 +1,6 @@
 
 # 実行角度を取得
-execute if entity @s[tag=!impulse_motion.executer] run function impulse_motion:.get_rotation/4.looking_execution
-execute if entity @s[tag=impulse_motion.executer] run function impulse_motion:.get_rotation/1.execution
+function impulse_motion:.get_rotation/1.execution
 
 
 ### グローバル座標系に変換
