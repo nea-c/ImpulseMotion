@@ -64,7 +64,7 @@ function #impulse_motion:
   * 一部計算処理をcomputeに置き換え
     * 1000倍の値で掛け算して1/1000にするとかいう割とカスの操作を削除したので、オーバーフローが起こりにくくなっているはず
   * 使用スロットをarmor.bodyに変更
-  * armor.bodyを使用するエンティティの時は、armor.feetを使用する挙動に変更
+  * armor.bodyを使用するエンティティの時は、armor.feetを使用するように変更
 
 * r1
   * 初版
