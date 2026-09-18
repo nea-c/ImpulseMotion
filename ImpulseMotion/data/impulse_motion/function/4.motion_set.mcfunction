@@ -64,7 +64,7 @@ execute if predicate {type:"entity_properties",entity:"this",predicate:{flags:{i
 
 
 
-# プレイヤーが上に載っている場合、エンチャントでのMotionが効かないので直でMotion付与する挙動にする
+# エンチャントでのMotionが効かない場合に直でMotion付与する挙動にする
 execute if entity @s[predicate=impulse_motion:enchant_is_not_work] run function impulse_motion:5.enchant_is_not_work
 
 
